@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Foldit:wght@100..900&family=Harmattan:wght@400;500;600;700&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #121816;
+}
+ header {
+       background-color: #ffffff;
+       width: 100%;
+       position: fixed;
+       z-index: 999;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #725b93;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #725b93;
+    font-weight: 500;
+    font-size: 1.6em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:#76c3b7; 
+}
+section{
+    padding:100px 200px ;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/MainPhoto.jpg) no-repeat;
+    background-size:900px;
+    background-position:  1500px;
+    background-attachment: fixed;
+}
+.main h2{
+   color:#76c3b7 ;
+   font-size: 2.2em;
+   font-weight: 500;
+}
+.main h2 span{
+    color:#725b93;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #ffffff;
+    background-color:#76c3b7 ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display:inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #63aca1;
+    transform: scale(1.1);
+}
+.social-icon a{
+    color: #ffffff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+section.AboutMe{
+    padding:200px 200px ;
+    background-color:#ffff;
+    text-align:  center;
+    
+}
+.AboutMe h2{
+    display: flex;
+    justify-content: center;
+    color:#76c3b7;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.AboutMe h3{
+    color:#121816;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:#76c3b7;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+.card{
+    background-color: #ffff;
+    width: 23.25em;
+    box-shadow: 0 5px 25px #636363af;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.icon{
+    color:#725b93;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color:#725b93;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px;
+}
+.info p{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+section.ProfessionalSkills{
+    text-align:  center;
+    background-color: #ffff;
+    padding:100px 100px ;
+}
+.PScard{
+    text-align: center;
+    width: 22.25em;
+    padding: 15px;
+    margin: 5px;
+}
+.PSicon{
+    color:#725b93;
+    font-size: 6em;
+}
+.container{
+    width:100%;
+    background-color:#929292;
+}
+.Skills{
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color:#000;
+}
+.java{
+    width:90%;
+    background-color: #76c3b7;
+}
+.python{
+    width:80%;
+    background-color: #76c3b7;
+}
+.html{
+    width:70%;
+    background-color: #76c3b7;
+}
+.css{
+    width:70%;
+    background-color: #76c3b7;
+}
+.figma{
+    width:90%;
+    background-color: #76c3b7;
+}
+.blender{
+    width:80%;
+    background-color: #76c3b7;
+}
+.Portfolio.content{
+margin-top: 30px;
+}
+.Pcard{
+    background-color: #ffff;
+    border: 4px solid #ffffff;
+    min-height: 14em;
+    width: 25em;
+    overflow:hidden;
+    border-radius: 10px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+.Pcard:hover{
+    transform: scale(1.1);
+}
+.Pcard:hover.P-image{
+    opacity: 0.9;
+ }
+.P-image img{
+width: 100%;
+}
+.P-info{
+    padding: 1em;
+}
+.p-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #6f44ac;
+}
+.more-details:hover{
+    color: #3b1472;
+}
+.ContactMe {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+  }
+  
+  .ContactMe h2 {
+    text-align: center; 
+    margin-bottom: 30px;
+  }
+  
+  .sendMessage {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  label {
+    padding:0.5em 1em;
+    font-size: 30px;
+    color:#76c3b7;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 40%;
+    padding: 2em 1em;
+    border: 1px solid #725b93;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    background-color: #f0f0f0;
+  }
+  button{
+    color: #ffffff;
+    background-color:#725b93 ;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 400;
+    display:inline-block;
+    padding: 0.9375em 1em;
+    width: 19%;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+button:hover{
+    background-color: #6f44ac;
+    transform: scale(1.1);
+}
+.contactInfo {
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myName {
+    margin-top: 40px;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#725b93;
+    font-weight: bold;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    font-size: 1.6em;
+    color: #000000;
+  }
+  
+  .contact-details p i {
+    margin-right: 5px;
+    font-size: 1.5em;
+    color:#76c3b7;
+
+  }
+ .Footer{
+background-color: #121816;
+padding: 2em;
+justify-content: space-between;
+display: flex;
+color: #ffffff;
+  }
+  .footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    color: #6f44ac;
+    padding: 0.5em;
+  }
+  .footer .social-icon a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+  }
+@media(max-width:1023px){
+    header{
+        padding: 1em 3em;
+        justify-content: space-between;
+    }
+    .navigation a{
+        padding-left: 0.6em;
+        font-size: 0.5em;
+    }
+    .logo{
+        font-size: 1em;
+    }
+    section{
+        padding: 5em 3em;
+    }
+    .main h2{
+    font-size: 1em;
+    }
+    .main h2 span{
+        font-size: 1.2em;   
+    }
+    .main h3{
+        font-size: 1.4em;
+    }
+    .main-btn{
+        font-size: 1em;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .social-icon{
+        font-size: 0.9em;
+        padding-right: 8px;
+        padding-bottom: 5px;
+    }
+    section.AboutMe{
+        padding: 20px 20px;
+        
+    }
+    .AboutMe h2{
+     font-size: 1.5em;
+     font-weight: 600;
+     margin-bottom: 10px;
+    }
+    .AboutMe h3{
+        font-size: 0.8em;
+        font-weight: 500;
+        letter-spacing: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 1.9em;
+    }
+    .title{
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    .card{
+        width: 9.25em;
+        box-shadow: 0 5px 10px #636363af;
+        border-radius: 11px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+.icon{
+    font-size: 1em;
+    text-align: center;
+}
+.info h3{
+    color:#725b93;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 5px;
+}
+.info p{
+    font-size: 0.7em;
+    font-weight: 500;
+}
+section.ProfessionalSkills{
+    padding:10px 10px ;
+}
+.PScard{
+    width: 6.25em;
+    padding: 3px;
+    margin: 2px;
+}
+.PSicon{
+    font-size: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
+}
+.Skills{
+    font-size: 0.4em;
+}
+
+.Portfolio.content{
+    margin-top: 10px;
+    justify-content: center;
+    }
+    .Pcard{
+        border: 2px solid #ffffff;
+        min-height: 0.8em;
+        width: 7.5em;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .P-info{
+        padding: 0.3em;
+        justify-content: space-between;
+    }
+    .p-category{
+        font-size: 0.4em;
+    }
+    .project-title{
+        font-weight: 400;
+        margin-top: 5px;
+        font-size: 0.4em;
+        margin-left: 0.2em;
+    }
+    .more-details{
+        font-size: 0.4em;
+    }
+    
+.ContactMe { 
+    padding: 20px;
+  }
+  .contact-container {
+    width: 100%; 
+  }
+  
+  .ContactMe h2 {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    padding:0.5em 0.7em;
+    font-size: 0.8em;
+  }
+  
+  input, textarea {
+    width: 90%;
+    padding: 0.2em 0.5em;
+    border: 1px solid #725b93;
+    border-radius: 8 px;
+    margin-bottom: 0.5em;
+  }
+  button{
+    font-size: 0.3em;
+    font-weight: 100;
+    padding: 0.2em 0.6em;
+    width: 50%;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contactInfo {
+    width: 50%; 
+  }
+  
+  .myName {
+    margin-top: 40px;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    font-size: 0.5em;
+  }
+  
+  .contact-details p i {
+    margin-right: 5px;
+    font-size: 0.5em;
+  }
+ .Footer{
+   padding: 0.5em;
+  }
+  .footer-title{
+    font-size: 0.3em;
+    font-weight: 300;
+  }
+  .designer{
+    font-size: 0.3em;
+  }
+  .footer .social-icon a{
+    font-size: 0.2em;
+    padding: 0 2px 0 0;
+  }
+
+}
