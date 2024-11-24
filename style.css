@@ -191,11 +191,11 @@ section.ProfessionalSkills{
     background-color: #76c3b7;
 }
 .html{
-    width:70%;
+    width:80%;
     background-color: #76c3b7;
 }
 .css{
-    width:70%;
+    width:80%;
     background-color: #76c3b7;
 }
 .figma{
@@ -204,6 +204,10 @@ section.ProfessionalSkills{
 }
 .blender{
     width:80%;
+    background-color: #76c3b7;
+}
+.wordpress{
+    width:90%;
     background-color: #76c3b7;
 }
 .Portfolio.content{
